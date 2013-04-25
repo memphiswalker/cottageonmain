@@ -1,0 +1,83 @@
+form {
+	margin-top: 2px;
+}
+form p { 
+	position: relative; 
+	margin: 2px;
+}
+form p label { 
+	position: absolute; 
+	top: 0; 
+	left: 0;
+}
+form p br {
+	display: none;
+}
+
+.form-submit {
+	display: block;
+	padding: 4px;
+	background-image: url('images/submit-btn.png');
+	background-repeat: no-repeat;
+	font-family: 'TypoSlabSerif','Georgia','serif';
+	text-shadow: 1px 1px #7e6906;
+	font-size: 1.1em;
+	text-transform: uppercase;
+	color: white;
+	float: left;
+	height: 42px;
+	width: 143px;
+	background-color: transparent;
+	border: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	-o-box-shadow: none;
+	box-shadow: none;
+	margin: 14px 0px 0px 0px;
+}
+
+.form-submit:hover {
+	color: #f5d960;
+	-webkit-transition: all ease-in 0.3s;
+	-moz-transition: all ease-in 0.3s;
+	-o-transition: all ease-in 0.3s;
+	transition: all ease-in 0.3s;
+	cursor: pointer;
+}
+
+form fieldset p label {
+	width: 380px;
+	display: block;
+	margin: 11px 5px 5px 6px;
+	padding: 0px 0px 0px 5px;
+	color: rgb(175, 174, 174);
+	font-size: 1em;
+	height: 27px;
+	text-transform: uppercase;
+}
+
+form fieldset p label {
+	color: rgb(163, 163, 163);
+	margin-top: 14px;
+	font-size: 1em;
+	width: 220px;
+}
+
+#name-lbl {
+	margin-top: 14px;
+}
+
+#email-lbl {
+	margin-top: 14px;
+}
+
+.email-inp {
+	margin-top: 5px;
+	margin-bottom: -25px;
+}
+
+fieldset {
+	float: left;
+	margin-top: 12px;
+	line-height: 1em;
+}
